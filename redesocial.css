@@ -23,6 +23,9 @@ html body{
     
 }
 body{
+    
+
+
     background-image: url('imagens/fundo-madeira.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -90,5 +93,10 @@ section#redes-sociais img:hover{
     transition: transform 0.5s;
 }
 section#redes-sociais{
-    line-height: 1.5em;
+    text-align: left; /*posicionamento dos botoes de rede social*/
+
+
+
+
+    
 }
