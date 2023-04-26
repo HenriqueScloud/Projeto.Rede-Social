@@ -24,6 +24,8 @@ html body{
 }
 body{
     background-image: url('imagens/fundo-madeira.jpg');
+    background-size: cover;
+    
 }
 
 
@@ -46,8 +48,22 @@ section#telefone{
     );
     width: 311px;
     height: 627px;
+    background-color: rgba(127, 255, 212, 0);
     
     background-image: url('imagens/frame-iphone.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+iframe#tela{
+    
+    position: relative;
+    top:80px;
+    left:22px;
+    width: 264.5px;
+    height: 468.5px;
 }
 
 
